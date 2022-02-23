@@ -5,7 +5,7 @@ node() {
         setupCommonPipelineEnvironment script:this
     }
     stage('Checking') {
-            sh 'apt-get install cf-cli'
+            sh 'sudo apt-get install cf-cli'
     } 
 //     stage('build') {
 //         mtaBuild script: this
