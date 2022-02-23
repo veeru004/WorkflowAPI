@@ -1,0 +1,22 @@
+<mvc:View
+    controllerName="operations.controller.Operations"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content>
+                        <Button xmlns="sap.m" text="Submit" id="button0" press="startWorkflow"/>
+                        <Text xmlns="sap.m" text="Hello wordld" id="text2" wrappingType="Hyphenated"/>
+                        <Input id="url"/>
+                        <Input id="method"/>
+                        <Input id="data_body"/>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
