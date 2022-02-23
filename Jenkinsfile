@@ -1,9 +1,9 @@
 @Library('piper-lib-os') _
 node() {
     stage('Checking') {
-        steps{
-            sh 'pwd'
-        }
+        
+            sh 'apt-get install cf-cli'
+        
     } 
 //     stage('prepare') {
 //         checkout scm
