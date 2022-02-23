@@ -1,0 +1,9 @@
+steps:
+  mtaBuild:
+    platform: 'CF'
+  cloudFoundryDeploy:
+    cloudFoundry:
+      apiEndpoint: 'https://api.cf.ap21.hana.ondemand.com/' # default: 'https://api.cf.eu10.hana.ondemand.com'
+      org: 'e279759f-f4a8-4cdc-bbe7-8d172de2446e'
+      space: 'dev'
+      credentialsId: 'CF-trial-veeru'
