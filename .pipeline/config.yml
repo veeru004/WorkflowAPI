@@ -9,6 +9,7 @@ steps:
     mta:
       deployTool: 'mtaDeployPlugin'
     cloudFoundry:
+      deployTool:'mtaDeployPlugin'
       apiEndpoint: 'https://api.cf.ap21.hana.ondemand.com/'
       org: '7d8aaaf2trial'
       space: 'dev'
