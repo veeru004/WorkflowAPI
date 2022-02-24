@@ -3,6 +3,11 @@ steps:
   mtaBuild:
     platform: 'CF'
   cloudFoundryDeploy:
+    mtaDeployPlugin:
+      dockerImage: 'ppiper/cf-cli:6'
+      dockerWorkspace: '/home/piper'
+    mta:
+      deployTool: 'mtaDeployPlugin'
     cloudFoundry:
       apiEndpoint: 'https://api.cf.ap21.hana.ondemand.com/'
       org: '7d8aaaf2trial'
