@@ -1,4 +1,4 @@
-@Library('piper-lib-os@v1.120.0') _
+@Library('piper-lib-os@v1.154.0') _
 node(){
   stage('Prepare')   {
       deleteDir()
