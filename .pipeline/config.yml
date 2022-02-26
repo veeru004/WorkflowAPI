@@ -4,7 +4,7 @@ steps:
     platform: 'CF'
   cloudFoundryDeploy:
     deployTool: 'mtaDeployPlugin'
-    apiEndpoint: 'https://api.cf.us10.hana.ondemand.com/'
+    apiEndpoint: 'https://api.cf.ap21.hana.ondemand.com/'
     org: '7d8aaaf2trial'
     space: 'dev'
     credentialsId: 'CF-trial-veeru'
